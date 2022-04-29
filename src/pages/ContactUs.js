@@ -1,8 +1,12 @@
-
+// ANIMATIONS 
+import { motion } from "framer-motion"
+import { PageAnimation } from "../animation"
 
 const ContactUs = () =>{
     return(
-        <div>Contact usk</div>
+        <motion.div variants={PageAnimation} initial="hidden" animate="show" exit="exit">
+            <h1>Contactaci</h1>
+        </motion.div>
     )
 }
 
