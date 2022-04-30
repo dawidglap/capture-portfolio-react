@@ -71,8 +71,12 @@ const Work = styled(motion.div)`
   overflow: hidden;
   padding: 5rem 10rem;
   h2{
-      padding: 1rem 0;
+      padding: 2rem 2rem;
   }
+
+  @media (max-width: 1300px){
+       display: block;
+   }
 `;
 
 const Movie = styled(motion.div)`
