@@ -72,6 +72,7 @@ const Work = styled(motion.div)`
   padding: 5rem 10rem;
   @media (max-width: 1300px){
        display: block;
+       padding: 2rem 1rem;
    }
   h2{
       padding: 1rem 0rem;
